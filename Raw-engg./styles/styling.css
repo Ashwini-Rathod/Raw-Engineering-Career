@@ -1,0 +1,542 @@
+body{
+    font-family: Montserrat,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.black{
+    background-color: black;
+   
+}
+
+.black-text{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: none;
+}
+
+.banner-text-h1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.hamburger{
+    display: none;
+    color: white;
+}
+
+/* .i-class{
+    border: 1px solid white;
+} */
+  
+
+
+.utility-grid-header{
+    display: grid;
+    grid-template-areas: 'header navbar navbar navbar navbar'
+                        '. banner banner banner .';
+    
+}
+
+.header-div{
+   /* border: 5px solid blue;  */
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+   
+
+}
+
+
+
+.logo{
+    /*border: 2px solid red;*/
+    grid-area: header;
+    align-self: center;
+    justify-self: start;
+    padding-left: 5vw;
+  
+   
+}
+
+.navigation{
+    /*border: 2px solid blue;*/
+    grid-area: navbar;
+    align-self: center;
+    justify-self: end;
+    padding-right: 5vw;
+}
+
+
+
+.black-banner{
+    background: linear-gradient(to bottom, black 50%, white 50%);
+}
+
+
+
+
+.banner-image{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./rawbanner.jpeg);
+    background-size: 100% 100%;
+    /*border: 2px solid red;*/
+    grid-area: banner;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+    width: 90%;
+    height: 60vh;
+    /* filter: brightness(65%); */
+  
+    
+
+  }
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    
+    background-color: rgb(56, 156, 238);
+    border-radius: 23px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+ 
+ .banner-text{
+     /*border: 2px solid black;*/
+     text-align: center;
+     padding-top: 30vh;
+     color: white;
+     
+     
+ }
+
+.nav-class{
+    font-size: vw;
+    /*border: 2px solid white;*/
+}
+
+.a-link{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.nav-select{
+    text-decoration: none;
+    text-emphasis: none;
+    display: none;
+}
+
+.red-line{
+    background-color: red;
+    margin: auto;
+    width: 80px;
+    height: 2px;
+    text-decoration: none;
+    text-emphasis: none;
+    
+}
+
+.join-re{
+    text-align: center;
+}
+
+.para{
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-container{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 5px;
+}
+
+.box{
+    border: 1px solid black;
+}
+
+.img1{
+
+    grid-column: 1/6;
+    grid-row: 1/13;
+}
+
+.img2{
+    
+    grid-column: 6/9;
+    grid-row: 1/8;
+}
+
+.img3{
+    grid-column: 6/9;
+    grid-row: 8/13;
+}
+
+.img4{
+    
+    grid-column: 9/13;
+    grid-row: 1/6;
+}
+
+.img5{
+    grid-column: 9/13;
+    grid-row: 6/13;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+.grid{
+    height: 100%;
+    width: 100%;
+}
+
+.browse-jobs{
+    width: 90%;
+    margin: auto;
+}
+
+.browse-h1{
+    text-align: center;
+}
+
+.select{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.engineering{
+    width: 90%;
+    margin: auto;
+}
+
+.utility-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eng-a{
+    color: rgb(53, 166, 241);
+    text-decoration: none;
+}
+
+.footer{
+    width: 100%;
+   
+    height: 80vh;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.utility-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.ready{
+    
+    /*border: 2px solid red;*/
+    text-align: center;
+    grid-column: 2/5;
+    grid-row: 2/4;
+
+}
+
+.first-h1{
+    font-size: 30px;
+
+}
+
+.git{
+    /*border: 1px solid white;*/
+    border-radius: 23px;
+    
+    display: inline;
+    background-color: rgb(18, 116, 196);
+    color: white;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+    
+}
+
+.git:hover{
+    background-color: blue;
+}
+
+.privacy-div{
+    /*border: 2px solid red;*/
+    grid-column: 1/3;
+    grid-row: 4/5;
+    align-self: center;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.privacy, .terms{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+
+.copy-right{
+    /*border: 2px solid red;*/
+    grid-column: 1/3;
+    grid-row: 5/6;
+    align-self: center;
+    margin-left: 60px;
+    padding: 8px;
+}
+
+.cr-text{
+    font-size: 12px;
+}
+
+.cr-logo{
+    width: 70px;
+    height: 70px;
+}
+
+.sm{
+    /*border: 2px solid red;*/
+    grid-column: 5/6;
+    grid-row: 4/5;
+    align-self: center;
+    justify-self: center;
+    margin-top: 40px;
+    
+
+
+}
+
+.sm-a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    line-height: 1;
+    
+}
+
+/* Footer Mediaquery*/
+@media (max-width: 800px){
+    .utility-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .utility-grid .ready{
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+
+    }
+
+    .utility-grid .sm{
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 2/3;
+ 
+    }
+
+    .utility-grid .privacy-div{
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .utility-grid .copy-right{
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 4/5;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+/* Engineering mediaquery*/
+@media (max-width: 860px){
+    .utility-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+}
+
+/* Grid-images mediaquery*/
+@media (max-width: 600px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 5px;
+        position: relative;
+    }
+
+    .grid-container .img1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .grid-container .img2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .grid-container .img3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .grid-container .img4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .grid-container .img5{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+}
+
+@media (max-width: 960px){
+     .navigation .hamburger{
+         display: block;
+        
+
+    }
+
+    .navigation .nav-class{
+        display: none;
+    }
+}
+
+@media (max-width: 280px){
+    .utility-grid-header{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .utility-grid-header .logo{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding-left: 0px;
+        justify-self: center;
+        /* border: 2px solid white; */
+    }
+
+    .utility-grid-header .logo img{
+        width: 100px;
+        height: 45px;
+    }
+
+    .utility-grid-header .navigation{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        justify-self: center;
+    }
+
+    .black-text .banner-text-h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 210px){
+    .join-re{
+        font-size: 20px;
+    }
+
+    .para{
+        font-size: 18px;
+    }
+
+    .department{
+        font-size: 12px;
+    }
+
+    .department .select{
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .eng-head h1{
+        font-size: 22px;
+    }
+
+    .eng-content .eng-content-head{
+        font-size: 20px;
+    }
+
+    .eng-content p{
+        font-size: 15px;
+    }
+
+    .ready .git{
+        display: block;
+        padding: 0px;
+    }
+
+    .sm .sm-a{
+        padding: 0px;
+    }
+
+    
+}
+
+@media (max-width: 850px){
+    .black-text{
+        display: block;
+    }
+
+    .banner-text .banner-h1{
+        display: none;
+
+    }
+}
+
+
+
